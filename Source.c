@@ -71,4 +71,5 @@ int task2(void) {
 	for (double i = 2.; i <= 4.; i += t) {
 		printf("| %5.1lf | %5.1lf |\n", i, (pow(2., i) - (2 * pow(i, 2.)) - 1));
 	}
+	return 0;
 }
